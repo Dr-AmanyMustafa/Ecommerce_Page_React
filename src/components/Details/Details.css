@@ -1,0 +1,113 @@
+.MainContainer{
+    display: flex;
+    margin: 200px;
+    padding: 20px;
+    margin-top: -100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.nav2{
+    position: relative;
+    top: -118px;
+}
+.title{
+    color: #767A7D;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.title2{
+    color: #202227;
+}
+.paragraph{
+    color: #6E7176;
+}
+.btnsContainer{
+    display: flex;
+    gap:20px;   
+}
+.priceContainer{
+   display: flex;
+   gap: 20px; 
+}
+.price{
+    font-weight: bold;
+    font-size: x-large;
+}
+.sale{
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.offer{
+    color: #64656A;
+    font-weight: bold;
+}
+.cartContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF7D1B;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%;
+    height: 45px;
+    gap:10px;    
+}
+.cartbtn{
+    color: black;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+
+     .MainContainer{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 20px;
+        margin-top: 60px;
+    }
+    .nav2{
+        position: relative;
+        top: 50px;
+    }
+    .nav1{
+        display: none;
+    }
+    .title{
+        position: relative;
+        top: 40px;
+    }
+    .title2{
+        width: 70%;
+        position: relative;
+        top: 20px;
+    }
+    .offer{
+        position: relative;
+        top: -30px;
+        left: 360px;
+    }
+    .btnsContainer{
+        display: flex;
+        flex-direction: column;               
+    }
+    .cartContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 40px;
+        gap:10px;
+        position: relative;
+        top: 5px;
+        left: 10px;
+    }
+}

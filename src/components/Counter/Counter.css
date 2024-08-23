@@ -1,0 +1,39 @@
+.counter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 45px;
+    background-color: #F7F8FD;
+    border-radius: 5px;    
+}
+.minus{
+    height: 5px;
+    cursor: pointer;
+}
+.plus{
+    height: 15px;
+    cursor: pointer;
+}
+input[type="number"] {
+    padding: 15px 0;
+    border-color: transparent;
+    background-color: hsl(223, 64%, 98%);
+    text-align: center;
+    width: 73.5%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+    .counter{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        height: 45px;
+        position: relative;
+        top: -20px;
+        left: 10px;
+    }
+}
+
